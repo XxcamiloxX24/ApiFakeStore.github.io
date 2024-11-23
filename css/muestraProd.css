@@ -1,0 +1,78 @@
+body{
+    background-image: url(../icons/internet-3116062_1280.webp);
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+#productoCuerpo{
+    text-align: center;
+    justify-self: center;
+    
+    width: 70vw;
+    height: 70vh;
+}
+.producto{
+    margin: 2% 0% 7% 0%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 4fr));
+    grid-template-rows: 1fr;
+    padding: 3%;
+    
+    border: 2px solid rgb(135, 130, 111);
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    text-align: justify;
+    box-shadow: 5px 5px 5px 5px #80808050 ;
+    
+}
+.titulo{
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 20%;
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.contImagen{
+    display: flex;
+    justify-content: center;   /* Centra la imagen horizontalmente */
+    align-items: center;       /* Centra la imagen verticalmente */
+    
+}
+.imagen{
+    width: 80%;
+    height: 80%;
+    
+}
+.info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    align-items: center;
+}
+.precio{
+    color: green;
+    text-align: center;
+}
+
+.descripcion{
+    font-weight: lighter;
+    margin: 5%;
+}
+.codigo{
+    text-align: center;
+}
+button{
+    margin: 5% 40%;
+    padding: 2%;
+    background-color: rgb(212, 168, 66);
+    
+    border-radius: 10px;
+}
+.volver{
+    margin: 2%;
+    border: 1px solid palevioletred;
+    padding: 1%;
+    position: fixed;
+}
+.rate{
+    margin: 5%;
+}

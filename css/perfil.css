@@ -1,0 +1,57 @@
+body{
+    overflow: hidden;
+}
+#nav{
+    background-color: rgb(134, 134, 134);
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 2% 0% 5%;
+    height: 1fr;
+    width: 100%;
+    overflow: hidden;
+    #btnAtras{
+        font-size: 30px;
+        color: white;
+    }
+}
+
+
+
+#lateral{
+    background-color: rgb(54, 54, 54);
+    padding: 0%;
+    color: white;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+
+
+
+    #icono{
+        font-size: 200px;
+        align-items: center;
+        justify-content: center;
+        transition: 0.5s;
+    }
+    #icono:hover{
+        color: rgb(0, 0, 0);
+        font-size: 201px;
+        transition: 0.5s;
+    }
+}
+#panelDerecha{
+    background-image: url(../icons/dark-background-abstract-with-light-effect-vector.jpg);
+    padding: 5%;
+    color: white;
+    overflow: hidden;
+    input{
+        background: transparent;
+        color: white;
+    }
+    input:hover{
+        border: 1px solid rgb(255, 255, 255);
+        box-shadow: 0px 0px 20px white;
+        transition: 0.5s;
+    }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Fake Store</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="../icons/box-arrow-in-right.svg">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+
+    <div class="login-container">
+        <div class="login-box">
+            
+            <h2>Iniciar Sesión</h2>
+            
+            <form>
+                <div class="input-group">
+                    <b>Email</b>
+                    <input type="text" id="email" name="email" placeholder="Ingrese su correo electrónico" autocomplete="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" name="password" placeholder="Ingrese su contraseña" autocomplete="current-password" required>
+                </div>
+                <button type="submit" id="submit" class="login-btn">Iniciar Sesión</button>
+            </form>
+
+            
+        </div>
+    </div>
+
+    <script src="../js/login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+
+</html>
